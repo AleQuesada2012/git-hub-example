@@ -48,4 +48,6 @@ TestVec2 = [-1, 50, 20, 2]
 suma(10, -50)
 resta(-5, -5)
 multi(7, 3)
+a = multi (5, 8) + producto_punto(testVec1, testVec2) #Primera línea agregada en esta modificación del archivo
+print(a)                                              #Segunda línea agregada en esta modificación del archivo
 producto_punto(TestVec1, TestVec2)

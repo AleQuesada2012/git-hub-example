@@ -40,14 +40,8 @@ def producto_punto(vector1, vector2):
         print("Los valores de entrada deben ser listas de una dimensión y del mismo largo")
     return 0
 
-# Valores de prueba
-TestVec1 = [1, 5, 8, 10]
-TestVec2 = [-1, 50, 20, 2]
+#Prueba de commit con Git
 
-#invocaciones de prueba
-suma(10, -50)
-resta(-5, -5)
-multi(7, 3)
-a = multi (5, 8) + producto_punto(testVec1, testVec2) #Primera línea agregada en esta modificación del archivo
-print(a)                                              #Segunda línea agregada en esta modificación del archivo
-producto_punto(TestVec1, TestVec2)
+print("Multiplicación de valores prueba GIT "+ str(multi(3,8)))
+
+print("Resta de valores prueba GIT " + str(resta(1,9)))
